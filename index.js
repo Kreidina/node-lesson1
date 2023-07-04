@@ -1,15 +1,4 @@
 const contacts = require("./contacts");
-// const { program } = require("commander");
-
-// program
-//   .option("-a, --action, <type>")
-//   .option("-i, --id, <type>")
-//   .option("-n, --name, <type>")
-//   .option("-e, --email, <type>")
-//   .option("-p, --phone, <type>");
-
-// program.parse();
-// const options = program.opts();
 const { Command } = require("commander");
 const program = new Command();
 program
